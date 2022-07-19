@@ -176,14 +176,6 @@
             <asp:Parameter Name="Supervisor" Type="String"></asp:Parameter>
             <asp:Parameter Name="EmployeeID" Type="String"></asp:Parameter>
         </UpdateParameters>
-        <InsertParameters>
-            <asp:Parameter Name="ProductName" Type="String"></asp:Parameter>
-            <asp:Parameter Name="CategoryID" Type="Int32"></asp:Parameter>
-            <asp:Parameter Name="UnitPrice" Type="Decimal"></asp:Parameter>
-            <asp:Parameter Name="Discontinued" Type="Boolean"></asp:Parameter>
-            <asp:Parameter Name="QuantityPerUnit" Type="String"></asp:Parameter>
-            <asp:Parameter Name="UnitsInStock" Type="Int16"></asp:Parameter>
-        </InsertParameters>
     </asp:SqlDataSource>
 
     <asp:SqlDataSource ID="CustServiceOptions" runat="server"
